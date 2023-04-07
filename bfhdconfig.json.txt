@@ -1,0 +1,41 @@
+[
+    {
+        "DisplayName": "Ip",
+        "Category": "Serversetting",
+        "Description": "Ip",
+        "Keywords": "Ip",
+        "FieldName": "+ip {{$ApplicationIPBinding}}",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "+ip {{$ApplicationIPBinding}}",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "96.43.128.124",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Port",
+        "Category": "Serversetting",
+        "Description": "Port",
+        "Keywords": "Port",
+        "FieldName": "+port {{$ApplicationPort1}}",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "+port {{$ApplicationPort1}}",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "16566",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Rcon pass",
+        "Category": "Serversetting",
+        "Description": "Rcon pass",
+        "Keywords": "Rcon pass",
+        "FieldName": "RconPass",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "RconPass",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "Dalton83",
+        "EnumValues": {}
+    }
+]
